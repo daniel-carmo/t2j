@@ -69,9 +69,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\travel.css" />
+    <Content Include="favicon.png" />
     <Content Include="packages.config" />
+    <Content Include="Resources\profileImages\0143424fa9a7f81cba3af7095fab3404.png" />
+    <Content Include="Resources\profileImages\1798e6e1cdad985b8cc7fa140027fd49.png" />
+    <Content Include="Resources\profileImages\27d3368be597fd2b6920dbcf3f5a1e20.png" />
+    <Content Include="Resources\profileImages\294de3557d9d00b3d2d8a1e6aab028cf.png" />
+    <Content Include="Resources\profileImages\336d5ebc5436534e61d16e63ddfca327.png" />
+    <Content Include="Resources\profileImages\3d0e7a52634b291f0c3970e89050cb4d.png" />
+    <Content Include="Resources\profileImages\4637fc154f2dab4e82452c191956b7e4.png" />
+    <Content Include="Resources\profileImages\4bf67e30c92436f10cd13905c883ac2b.png" />
+    <Content Include="Resources\profileImages\612787c854f63030c8b43366a75c1ed9.png" />
+    <Content Include="Resources\profileImages\657dbb381ea6613587b9b65a82f32211.png" />
+    <Content Include="Resources\profileImages\73752e7a96ba1f0d0ebebca61d1cb66e.png" />
+    <Content Include="Resources\profileImages\752cd7651b16026b01459a2dfd3f8971.png" />
+    <Content Include="Resources\profileImages\8b5aa4acddb7457d43bbb823d87456df.png" />
+    <Content Include="Resources\profileImages\ba01b20b383b65c448684c718f214ef1.png" />
+    <Content Include="Resources\profileImages\c4ef24ff115dabd5c28fe6bff0f59309.png" />
     <Content Include="Resources\profileImages\d2de101f10c1c2d41a2750e3ac5ecc89.png" />
+    <Content Include="Resources\profileImages\e3930afbda5319770f46a8ab31000355.png" />
+    <Content Include="Resources\profileImages\fab43d1a8c8be88439fba37b66a66052.png" />
+    <Content Include="Resources\profileImages\fadf71b1feb07335090d2494e3f7bf76.png" />
+    <Content Include="Resources\profileImages\fbfca8970665acdecd7602b9b1dbbd52.png" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Properties\PublishProfiles\Altervista.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

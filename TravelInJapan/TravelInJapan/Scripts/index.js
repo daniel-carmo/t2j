@@ -5,6 +5,7 @@ $(document).ready(function () {
     // Controllo se è presente il parametro del token nel URL della pagina
     if (location.hash.indexOf("token=") < 0) {
         document.body.innerHTML = "<h2>401.0 - Accesso negato</h2>";
+        showAccessPage();
     }
     // Ottengo il token dal URL
     token = location.hash.split("=")[1];
@@ -24,11 +25,13 @@ $(document).ready(function () {
             });
             if (foundUser == false) {
                 document.body.innerHTML = "<h2>401.0 - Accesso negato</h2>";
+                showAccessPage();
             }
         });
     }
     else {
         document.body.innerHTML = "<h2>400.0 - Richiesta non valida</h2>";
+        showAccessPage();
     }
 });
 function showAccessPage() {
@@ -49,3 +52,4 @@ function setGiftButton(firstname, token) {
 function loadUserPicture(token) {
     $("#userImage").attr("src", "Resources/profileImages/" + token + ".png");
 }
+//# sourceMappingURL=index.js.map
