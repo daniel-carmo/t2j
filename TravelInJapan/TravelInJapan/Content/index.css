@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #000;
+    color: #FFF;
+    display: none;
+}
+
+.container {
+    margin-top: 10em;
+    width: 400px;
+    border: dotted #FFF 3px;
+    padding: 25px;
+}
+
+.sub-container {
+    width: 350px;
+}
+
+img#userImage {
+    border-radius: 80px;
+    margin: 5px auto 20px auto;
+    border: dotted 5px #9A0000;
+}
