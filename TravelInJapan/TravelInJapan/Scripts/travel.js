@@ -21,7 +21,7 @@ $(document).ready(function () {
                     foundUser = true;
                 }
                 else {
-                    $("#people").append($("#people").add('<figure class="peopleCircle"><img src="Resources/profileImages/' + user.token + '.png"/></figure>'));
+                    $("#people").append($("#people").add('<figure class="peopleCircle"><img title="' + user.firstname + ' ' + user.surname + '" src="Resources/profileImages/' + user.token + '.png"/></figure>'));
                 }
             });
             if (foundUser == false) {
