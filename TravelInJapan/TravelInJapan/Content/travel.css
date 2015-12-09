@@ -1,21 +1,42 @@
 ﻿body {
     background-color: #000;
     color: #FFF;
+    font-family: 'Century Gothic';
 }
 
-.container {
-    margin-top: 10em;
-    width: 400px;
-    border: dotted #FFF 3px;
-    padding: 25px;
+.bg-white {
+    background: #FFF;
+    color: #000;
+}
+
+.container-cover {
+    background-image: url("../Resources/travel/cover.png");
+    background-size: cover;
 }
 
 .sub-container {
-    width: 350px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 600px;
 }
 
 img#userImage {
     border-radius: 80px;
     margin: 5px auto 20px auto;
     border: dotted 5px #9A0000;
+}
+
+p.pTravelTitle {
+    font-size: 2.5em;
+    font-family: 'Century Gothic';
+}
+
+p.pMessage {
+    padding: 0.5em;
+    font-style: italic;
+}
+
+h4.hSection {
+    margin-top: 20px;
+    display:block;
 }
