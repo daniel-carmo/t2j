@@ -94,6 +94,21 @@
     <Content Include="Resources\travel\arrow.png" />
     <Content Include="Resources\travel\cover.png" />
     <Content Include="Resources\travel\map.png" />
+    <Content Include="Resources\travel\section\day1.jpg" />
+    <Content Include="Resources\travel\section\day10.jpg" />
+    <Content Include="Resources\travel\section\day11.jpg" />
+    <Content Include="Resources\travel\section\day12.jpg" />
+    <Content Include="Resources\travel\section\day13.jpg" />
+    <Content Include="Resources\travel\section\day14.jpg" />
+    <Content Include="Resources\travel\section\day15.jpg" />
+    <Content Include="Resources\travel\section\day2.jpg" />
+    <Content Include="Resources\travel\section\day3.jpg" />
+    <Content Include="Resources\travel\section\day4.jpg" />
+    <Content Include="Resources\travel\section\day5.jpg" />
+    <Content Include="Resources\travel\section\day6.jpg" />
+    <Content Include="Resources\travel\section\day7.jpg" />
+    <Content Include="Resources\travel\section\day8.jpg" />
+    <Content Include="Resources\travel\section\day9.jpg" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Properties\PublishProfiles\Altervista.pubxml" />
     <None Include="Web.Debug.config">
@@ -133,6 +148,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

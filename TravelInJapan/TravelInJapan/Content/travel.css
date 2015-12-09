@@ -38,5 +38,47 @@ p.pMessage {
 
 h4.hSection {
     margin-top: 20px;
-    display:block;
+    display: block;
 }
+
+h5.hSection {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+    border-top: solid #000 1px;
+    border-bottom: solid #000 1px;
+}
+
+figure {
+    width: 100%;
+    height: auto;
+}
+
+    figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure figcaption {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+div.footer {
+    background-color: rgba(0, 0, 0, 0.64);
+    min-height: 200px;
+}
+
+
+figure.peopleCircle {
+    width: 120px;
+    height: auto;
+    padding: 0.5em;
+    float: left;
+}
+
+    figure.peopleCircle img {
+        border-radius: 80px;
+        border: dotted 3px #FFF;
+    }
