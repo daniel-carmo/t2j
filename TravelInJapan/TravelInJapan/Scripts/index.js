@@ -4,7 +4,7 @@ $(document).ready(function () {
     var token;
     // Controllo se è presente il parametro del token nel URL della pagina
     if (location.hash.indexOf("token=") < 0) {
-        document.body.innerHTML = "<h2>401.0 - Accesso negato</h2>";
+        document.body.innerHTML = '<h2>401.0 - Accesso negato</h2><p><a href="impersonate.html">Prova uno dei seguenti token!</a></p>';
         showAccessPage();
     }
     // Ottengo il token dal URL
@@ -24,13 +24,13 @@ $(document).ready(function () {
                 }
             });
             if (foundUser == false) {
-                document.body.innerHTML = "<h2>401.0 - Accesso negato</h2>";
+                document.body.innerHTML = '<h2>401.0 - Accesso negato</h2><p><a href="impersonate.html">Prova uno dei seguenti token!</a></p>';
                 showAccessPage();
             }
         });
     }
     else {
-        document.body.innerHTML = "<h2>400.0 - Richiesta non valida</h2>";
+        document.body.innerHTML = '<h2>400.0 - Richiesta non valida</h2><p><a href="impersonate.html">Prova uno dei seguenti token!</a></p>';
         showAccessPage();
     }
 });

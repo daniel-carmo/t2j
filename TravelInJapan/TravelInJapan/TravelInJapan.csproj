@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="Content\travel.css" />
     <Content Include="favicon.png" />
+    <Content Include="impersonate.html" />
     <Content Include="packages.config" />
     <Content Include="Resources\profileImages\0143424fa9a7f81cba3af7095fab3404.png" />
     <Content Include="Resources\profileImages\1798e6e1cdad985b8cc7fa140027fd49.png" />
@@ -92,8 +93,7 @@
     <Content Include="Resources\profileImages\fadf71b1feb07335090d2494e3f7bf76.png" />
     <Content Include="Resources\profileImages\fbfca8970665acdecd7602b9b1dbbd52.png" />
     <Content Include="Resources\travel\arrow.png" />
-    <Content Include="Resources\travel\cover.png" />
-    <Content Include="Resources\travel\map.png" />
+    <Content Include="Resources\travel\cover.jpg" />
     <Content Include="Resources\travel\section\day1.jpg" />
     <Content Include="Resources\travel\section\day10.jpg" />
     <Content Include="Resources\travel\section\day11.jpg" />
@@ -140,6 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\impersonate.ts" />
     <TypeScriptCompile Include="Scripts\travel.ts" />
     <TypeScriptCompile Include="Scripts\index.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
