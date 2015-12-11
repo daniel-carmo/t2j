@@ -84,3 +84,10 @@ figure.peopleCircle {
         border-radius: 80px;
         border: dotted 3px #FFF;
     }
+
+
+img#personInChargePhoto {
+    border-radius: 100px;
+    margin: 5px auto 20px auto;
+    border: dotted 5px #9A0000;
+}

@@ -94,6 +94,7 @@
     <Content Include="Resources\profileImages\fbfca8970665acdecd7602b9b1dbbd52.png" />
     <Content Include="Resources\travel\arrow.png" />
     <Content Include="Resources\travel\cover.jpg" />
+    <Content Include="Resources\travel\pic.jpg" />
     <Content Include="Resources\travel\section\day1.jpg" />
     <Content Include="Resources\travel\section\day10.jpg" />
     <Content Include="Resources\travel\section\day11.jpg" />
