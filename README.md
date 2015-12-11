@@ -1,7 +1,7 @@
 # t2j
 Progetto per modulo 131 
 
-Il sito fa uso delle seguenti librerie:
+Il sito ha fatto uso delle seguenti librerie:
  - Bootstrap4, il quale è un semplice framework css che permette lo sviluppo di siti web responsive
  - jQuery, è una libreria che permette di semplificare la manipolazione del DOM (HTML) e aggiunge delle animazioni di base
  - TypeScript, usato per tipizzare JavaScript
@@ -17,4 +17,5 @@ Il sito fa uso delle seguenti librerie:
  - Pencil per la bozza
  - Visual Studio per lo sviluppo
  - Paint.NET per la grafica
+
 
