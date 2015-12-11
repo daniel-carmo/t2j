@@ -52,4 +52,3 @@ function setGiftButton(firstname, token) {
 function loadUserPicture(token) {
     $("#userImage").attr("src", "Resources/profileImages/" + token + ".png");
 }
-//# sourceMappingURL=index.js.map

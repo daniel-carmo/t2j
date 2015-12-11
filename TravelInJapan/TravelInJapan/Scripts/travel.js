@@ -46,4 +46,3 @@ function setUsername(firstname, surname) {
 function setUserPicture(token) {
     $("#userImage").attr("src", "Resources/profileImages/" + token + ".png");
 }
-//# sourceMappingURL=travel.js.map

@@ -8,4 +8,3 @@ $(document).ready(function () {
         });
     });
 });
-//# sourceMappingURL=impersonate.js.map
