@@ -5,14 +5,16 @@
 }
 
 .container {
-    margin-top: 10em;
-    width: 400px;
+    margin-top: 8em;
+    min-width: 300px;
+    max-width: 400px;
     border: dotted #FFF 3px;
     padding: 25px;
 }
 
 .sub-container {
-    width: 350px;
+    min-width: 250px;
+    max-width: 350px;
 }
 
 img#userImage {

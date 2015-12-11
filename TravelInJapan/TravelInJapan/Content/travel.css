@@ -10,14 +10,16 @@
 }
 
 .container-cover {
-    background-image: url("../Resources/travel/cover.png");
+    background-image: url("../Resources/travel/cover.jpg");
     background-size: cover;
 }
 
 .sub-container {
-    width: 500px;
+    min-width: 320px;
+    max-width: 620px;
     background-color: rgba(0, 0, 0, 0.64);
-    height: 600px;
+    min-height: 600px;
+    max-height: 700px;
 }
 
 img#userImage {
